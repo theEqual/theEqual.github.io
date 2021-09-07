@@ -1,0 +1,67 @@
+html{
+
+    background-color: #bbbbbb;
+}
+
+a{
+    color: #ffffff;
+}
+
+.header{
+    font-family: monospace;
+    font-size: 20px;
+    background-color: #777777;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+    text-align: justify;
+    max-width: 91% ;
+    position: relative;
+    left: 5%;
+    border-radius: 5px;
+    padding: 1px;
+    margin-bottom: 20px;
+    
+}
+
+.szoveg{
+    text-align: center;
+    background-color: #777777;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+    color:#ffffff;
+    display: inline-block;
+    max-width: 90%;
+    position: relative;
+    left: 5%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+}
+
+h2{
+    text-align: center;
+    color: #0000ff
+}
+a:hover{
+    color: #bbbbbb;
+
+}
+
+ a{
+    text-decoration: none;
+}
+body, html {
+    height: 100%;
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
