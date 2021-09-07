@@ -6,9 +6,9 @@ const Pi = 3.1416;
 let bevittErtek = 0;
 
 function hozzaad(){
-    let bevittErtek = document.querySelector("input[name='csakUgy']")
-    let hozzaadott = parseInt(bevittErtek.value)
-    szam += hozzaadott
+    let bevittErtek = document.querySelector("input[name='csakUgy']");
+    let hozzaadott = parseInt(bevittErtek.value);
+    szam += hozzaadott;
 }
 
 function szamlalo() {
@@ -17,4 +17,10 @@ function szamlalo() {
 
 function kiiro() {
     alert("Eddigi kattintások száma: " + szam + "db");
+}
+
+function masodikKiiro(){
+    let ertek = document.querySelector("span[name='kiiras']");
+    ertek.innerHTML = szam;
+
 }

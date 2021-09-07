@@ -60,9 +60,15 @@
 
             <div style="margin: 30px;" class="col-3">
                 <label for="csakUgy">Mennyit adjunk a kattintasokhoz? </label>
-                <input type="text" name="csakUgy" placeholder="hozzaadando">
+                <input type="number" name="csakUgy" placeholder="hozzaadando">
                 <button style="margin: 10px;" type="button" onclick="hozzaad()" class="btn btn-primary"> Add
                     hozzá!</button>
+            </div>
+
+            <div style="margin: 30px;" class="col-3">
+                <button style="margin: 10px;" type="button" onclick="masodikKiiro()" class="btn btn-primary"> 
+                Kiírás ide</button>
+                <p> A kattintások száma <span name="kiiras">0</span> db</p>
             </div>
         </div>
     </div>
