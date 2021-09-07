@@ -1,2 +1,0 @@
-# theEqual.github.io
-mypagemystuff
