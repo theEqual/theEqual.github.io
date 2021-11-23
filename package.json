@@ -1,0 +1,24 @@
+{
+  "name": "theEqual.github.io",
+  "version": "1.0.0",
+  "description": "Változatok egy témára fizikából honlap directory",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theEqual/theEqual.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theEqual/theEqual.github.io/issues"
+  },
+  "homepage": "https://github.com/theEqual/theEqual.github.io#readme"
+}
