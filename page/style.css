@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+  background-color: darkslategray;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: medium;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.btn {
+  height: 70px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: lightgray;
+  border-style: solid 1px gray;
+  font-size: large;
+  font-weight: 900;
+  color: #222222;
+  margin-left: 44%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn:hover {
+  background-color: deeppink;
+}
+
+fieldset {
+  min-height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-image: linear-gradient(to right, #666666, #888888);
+  color: yellow;
+}
+fieldset label {
+  font-weight: 600;
+  color: white;
+}
+fieldset legend {
+  font-weight: 700;
+  font-size: larger;
+}
+fieldset .container {
+  margin-left: 100px;
+}
+fieldset .container input, fieldset .container select {
+  margin: 20px;
+  padding: 15px;
+  font-weight: 550;
+  color: #222222;
+}
+
+#fortype {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+#fortype select {
+  padding: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: red;
+}
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
