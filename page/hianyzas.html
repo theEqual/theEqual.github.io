@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <form action="">
+
+        <fieldset>
+        
+            <legend>Keresett gyerek</legend>
+        <div class="container">
+            
+            <label for="team">Csoport:</label>
+            <select name="team" id="team">
+                <option value="a2"> Angol/A2</option>
+                <option value="b1"> Angol/B1</option>
+                <option value="b2"> Angol/B2</option>
+                <option value="c1"> Angol/C1</option>
+            </select>
+            
+            <label for="child">Keresett gyerek:</label>
+            <select name="team" id="team">
+                <option value="a2">...</option>
+                <option value="b1"> xy</option>
+                <option value="b2"> ab</option>
+                <option value="c1"> cd</option>
+            </select>
+        </div>
+
+        </fieldset>
+
+
+
+        <fieldset>
+
+            <legend>Keresett óra</legend>
+            <div class='container'>
+                
+                <label for="" date">Az óra dátuma: </label>
+                <input type="date" id="date" name="date">
+                
+                <label for="nth">Hanyadik órában:</label>
+                <select name="nth" id="nth">
+                    <option value="">Válassz!</option>
+                    <option value="1st">1.</option>
+                    <option value="2nd">2.</option>
+                    <option value="3rd">3.</option>
+                    <option value="4th">4.</option>
+                    <option value="5th">5.</option>
+                    <option value="6th">6.</option>
+                    <option value="7th">7.</option>
+                    <option value="8th">8.</option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Hiányzás típusa:</legend>
+            <div id= "fortype">
+
+                <select name="type" id="type">
+                    <option value="1">Igazolatlan</option>
+                    <option value="2">Késés </option>
+                    <option value="3">Igazoltan távol </option>
+                </select>
+            </div>
+        </fieldset>
+
+        <button class="btn">MEHET</button>
+
+        <fieldset>
+
+            <legend >Adat kérés</legend>
+
+            <div class= "container">
+                    <label for="child">Keresett gyerek:</label>
+                    <select name="child2" id="child2">
+                        <option value="a2">...</option>
+                        <option value="b1"> xy</option>
+                        <option value="b2"> ab</option>
+                        <option value="c1"> cd</option>
+                    </select>
+                
+            </div>
+
+            <div class="container">
+
+                <label for="a1">Igazolatlan hiányzások</label>
+                <input type="checkbox" id="a1" name="a1" value="igazolatlan hiányzások">
+                <label for="a2">Késések</label>
+                <input type="checkbox" id="a2" name="a2" value="késések">
+                <label for="a3">Igazolt hiányzások</label>
+                <input type="checkbox" id="a3" name="a3" value="igazolt hiányzások">
+            </div>
+                
+            </fieldset>
+
+    </form>
+</body>
+
+</html>
